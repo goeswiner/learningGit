@@ -17,6 +17,7 @@ git remote add origin https://URL/
 git push -u origin master
 git push
 git log
+git log --oneline
 git log nomedoarquivo
 git show codigodocommit  [ver alteraçõoes no commit]
 git diff	[comparar arquivos]
@@ -25,6 +26,8 @@ git diff --staged	[comparar arquivos na staging]
 git rm nomedoarquivo	[excluir arquivo]
 git log --diff-filter=D --summary	[log de arquivos exluidos]
 git checkout codigocommit~1 nomedoarquivo
+git revert HEAD		[reverter ultimo commit]
+git revert codigocommit		[revert commit]
 
 
 
