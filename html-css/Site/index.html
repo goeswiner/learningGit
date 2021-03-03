@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aprendendo HTML</title>
+   
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+   
+   <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25pt;
+            color: orange;
+            text-shadow: 2px 2px 4px black;
+        }
+    </style>
+
+</head>
+<body>
+    <hr>
+    <h1>Abreviações e citações</h1>
+    <p>Quando vamos citar códigos usando <abbr title="Hyper Text Markup Language">HTML</abbr> podemos usar o comando <code>code</code></p>
+    <p>Podemos fazer uma citação simples usando o comando <q>q</q></p>
+    <p>Ou podemos fazer citações longas usando o comando blockquote assim: <blockquote>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatum ipsam quisquam, vel quo doloribus tenetur in nam? Corrupti at numquam sint odit excepturi sunt repellat. Nesciunt vero nemo beatae.
+    </blockquote></p>
+    <hr>
+    <h1>Utilizando imagens internas e externas</h1>
+    <img src="imagens/Logo 2 - Colorido.png" alt="Logo colotido">
+    <hr>
+    <img src="https://i.pinimg.com/originals/7b/35/46/7b35464b0f87d6c79697fd8fec2a748d.png" alt="Sorriso da net">
+    <hr>
+    <h1>Usando marcações de conteúdo</h1>
+    <p>Podemos usar, por exemplo, o comando <b>b</b> para FORMATAR um texto.</p>
+    <p>Ou, por outro lado, o comando <strong>strong</strong> para DESTACAR um texto.</p>
+    <p>Podemos usar o comando &lt;br&gt; <br> para gerar uma quebra de linha.</p>
+    <hr>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas "ol" - Tarefas do dia</h2>
+        <ol type="I" start="4"> <!--I i A a 1-->
+            <li>Acordar</li>
+            <li>Escovar os dentes</li>
+            <li>Tomar café
+        </ol>
+    <h2>Listas não ordenadas "ul" - mercado</h2>
+        <ul type="circle"> <!--disk/circle/square-->
+            <li>Pão</li>
+            <li>Arroz</li>
+            <li>Carne</li>
+        </ul>
+    <h2>Listas de definição</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Marcação de conteúdo</dd><br>
+            <dt>CSS</dt>
+            <dd>Formatação e estilo</dd><br>
+            <dt>JavaScript</dt>
+            <dd>Interação</dd><br>
+        </dl>
+    <h1>Trabalhando com links</h1>
+    <h2>Usando links externos</h2>
+        <p>Você pode acessar meu <a href="https://github.com/goeswiner" target="_blank" rel="external">repositório público no GitHub</a></p>
+        <p>Lá, você vai encontrar o que aprendi sobre <a href="https://github.com/goeswiner/learningGit" target="_blank" rel="external">Git</a></p>
+    <h2>Usando links internos</h2>
+        <p>Veja também a <a href="page2.html" type="_self" rel="next">página 2</a> e a <a href="../page3.html" type="_self" rel="next">página 3</a></p>
+    <h2>Usando link para downloads</h2>
+        <ul>
+            <li><a href="../Servidao_voluntaria_Boetie.pdf" download="Servidao_voluntaria_Boetie.pdf" type="application/pdf">Baixar o .pdf</a></li>
+            <li><a href="../boetie.zip" download="boetie.zip" type="application/zip">Baixar .zip</a></li>
+        </ul>
+</body>
+
+<!-- 
+    <blockquote cite= URL>
+
+    [ICONES]
+    https://favicon.io/favicon-converter/ 
+    link favicon
+
+    <a> para link externo 
+target="_blank" // rel="external"
+download="nome" // type="application/..."
+-->
+
+</html>
