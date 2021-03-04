@@ -29,7 +29,9 @@ git log --diff-filter=D --summary	[log de arquivos exluidos]
 git checkout codigocommit~1 nomedoarquivo
 git revert HEAD		[reverter ultimo commit]
 git revert codigocommit		[revert commit]
-
+git remote		[ver repositórios remotos]
+git remote rm destination	[remover um dos repositórios remotos]
+git push --set-upstream learningTech main	[definir repositório online como principal]
 
 
 
