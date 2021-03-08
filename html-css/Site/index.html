@@ -23,21 +23,21 @@
 <body>
     <hr>
     <h1>Abreviações e citações</h1>
-    <p>Quando vamos citar códigos usando <abbr title="Hyper Text Markup Language">HTML</abbr> podemos usar o comando <code>code</code></p>
-    <p>Podemos fazer uma citação simples usando o comando <q>q</q></p>
-    <p>Ou podemos fazer citações longas usando o comando blockquote assim: <blockquote>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatum ipsam quisquam, vel quo doloribus tenetur in nam? Corrupti at numquam sint odit excepturi sunt repellat. Nesciunt vero nemo beatae.
-    </blockquote></p>
+        <p>Quando vamos citar códigos usando <abbr title="Hyper Text Markup Language">HTML</abbr> podemos usar o comando <code>code</code></p>
+        <p>Podemos fazer uma citação simples usando o comando <q>q</q></p>
+        <p>Ou podemos fazer citações longas usando o comando blockquote assim: <blockquote>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatum ipsam quisquam, vel quo doloribus tenetur in nam? Corrupti at numquam sint odit excepturi sunt repellat. Nesciunt vero nemo beatae.
+        </blockquote></p>
     <hr>
     <h1>Utilizando imagens internas e externas</h1>
-    <img src="imagens/Logo 2 - Colorido.png" alt="Logo colotido">
-    <hr>
-    <img src="https://i.pinimg.com/originals/7b/35/46/7b35464b0f87d6c79697fd8fec2a748d.png" alt="Sorriso da net">
+        <img src="imagens/Logo 2 - Colorido.png" alt="Logo colotido">
+        <hr>
+        <img src="https://i.pinimg.com/originals/7b/35/46/7b35464b0f87d6c79697fd8fec2a748d.png" alt="Sorriso da net">
     <hr>
     <h1>Usando marcações de conteúdo</h1>
-    <p>Podemos usar, por exemplo, o comando <b>b</b> para FORMATAR um texto.</p>
-    <p>Ou, por outro lado, o comando <strong>strong</strong> para DESTACAR um texto.</p>
-    <p>Podemos usar o comando &lt;br&gt; <br> para gerar uma quebra de linha.</p>
+        <p>Podemos usar, por exemplo, o comando <b>b</b> para FORMATAR um texto.</p>
+        <p>Ou, por outro lado, o comando <strong>strong</strong> para DESTACAR um texto.</p>
+        <p>Podemos usar o comando &lt;br&gt; <br> para gerar uma quebra de linha.</p>
     <hr>
     <h1>Trabalhando com Listas</h1>
     <h2>Listas Ordenadas "ol" - Tarefas do dia</h2>
@@ -62,16 +62,32 @@
             <dd>Interação</dd><br>
         </dl>
     <h1>Trabalhando com links</h1>
-    <h2>Usando links externos</h2>
-        <p>Você pode acessar meu <a href="https://github.com/goeswiner" target="_blank" rel="external">repositório público no GitHub</a></p>
-        <p>Lá, você vai encontrar o que aprendi sobre <a href="https://github.com/goeswiner/learningGit" target="_blank" rel="external">Git</a></p>
-    <h2>Usando links internos</h2>
-        <p>Veja também a <a href="page2.html" type="_self" rel="next">página 2</a> e a <a href="../page3.html" type="_self" rel="next">página 3</a></p>
-    <h2>Usando link para downloads</h2>
-        <ul>
-            <li><a href="../Servidao_voluntaria_Boetie.pdf" download="Servidao_voluntaria_Boetie.pdf" type="application/pdf">Baixar o .pdf</a></li>
-            <li><a href="../boetie.zip" download="boetie.zip" type="application/zip">Baixar .zip</a></li>
-        </ul>
+        <h2>Usando links externos</h2>
+            <p>Você pode acessar meu <a href="https://github.com/goeswiner" target="_blank" rel="external">repositório público no GitHub</a></p>
+            <p>Lá, você vai encontrar o que aprendi sobre <a href="https://github.com/goeswiner/learningGit" target="_blank" rel="external">Git</a></p>
+        <h2>Usando links internos</h2>
+            <p>Veja também a <a href="page2.html" type="_self" rel="next">página 2</a> e a <a href="page3.html" type="_self" rel="next">página 3</a></p>
+        <h2>Usando link para downloads</h2>
+            <ul>
+                <li><a href="files/Servidao_voluntaria_Boetie.pdf" download="Servidao_voluntaria_Boetie.pdf" type="application/pdf">Baixar o .pdf</a></li>
+                <li><a href="files/boetie.zip" download="boetie.zip" type="application/zip">Baixar .zip</a></li>
+            </ul>
+
+        <h1>Imagem dinâmica</h1>
+            <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e dinua o tamanho do seu navegador.</p>
+
+            <picture> <!--Precisa estar nessa ordem-->
+                <source media="(max-width: 700px)" srcset="imagens/small.png" type="image/png">
+                <source media="(max-width: 1000px)" srcset="imagens/medium.png" type="image/png">
+                <img src="imagens/big.png" alt="Imagem flexível.">
+            </picture>
+        <h1>Reproduzindo Áudio</h1>
+            <p>Conheça o podcast</p>
+            <audio src="audio/audioteste.mp3" controls></audio> <!--autoplay-->
+
+
+
+
 </body>
 
 <!-- 
